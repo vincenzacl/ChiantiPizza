@@ -23,11 +23,12 @@
     
     <dependency id="cordova-plugin-geolocation" />
     <dependency id="cordova-plugin-dialogs" />    
-   
+     
     <feature name="SplashScreen">
         <param name="android-package" value="org.apache.cordova.SplashScreen" />
-        <param name="ios-package" value="CDVSplashScreen" />
+        <!-- <param name="ios-package" value="CDVSplashScreen" /> -->
     </feature>
+    
     
     <platform name="android">
         <preference name="Fullscreen" value="false" />
